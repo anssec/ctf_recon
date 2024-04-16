@@ -1,6 +1,6 @@
-# Network Reconnaissance Tool
+# CTF Reconnaissance Tool
 
-This Bash script performs network reconnaissance tasks, including IP address validation, target scanning with Nmap, and directory fuzzing with Gobuster. It provides a simple command-line interface for users to input the target IP address and directory name, and it guides users through the scanning process.
+This Bash script is designed for CTF (Capture The Flag) players to automate common reconnaissance tasks at the beginning of a CTF challenge. It simplifies the process of performing network scans and directory busting on different target machines, allowing CTF players to quickly gather information and identify potential vulnerabilities.
 
 ## Features
 
