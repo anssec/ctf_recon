@@ -1,4 +1,4 @@
-# CTF Reconnaissance Tool
+# Network Reconnaissance Tool
 
 This Bash script is designed for CTF (Capture The Flag) players to automate common reconnaissance tasks at the beginning of a CTF challenge. It simplifies the process of performing network scans and directory busting on different target machines, allowing CTF players to quickly gather information and identify potential vulnerabilities.
 
@@ -20,3 +20,16 @@ This Bash script is designed for CTF (Capture The Flag) players to automate comm
 
 ```bash
 ./ctf_recon.sh [targate IP] [directory name]
+```
+
+## Example
+```bash
+./ctf_recon.sh 10.10.10.10 target_directory
+```
+## Instructions
+
+Before running the script, ensure that the script file has executable permission. You can grant executable permission using the following command:
+```bash
+chmod +x ctf_recon.sh
+```
+
